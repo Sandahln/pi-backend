@@ -99,7 +99,14 @@ async fn get_games() -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    println!("Rust API actively listening on http://127.0.0.1:8080");
+    // 1. Check if a custom host was passed via the environment, default to localhost
+    let host = std::env::var("API_HOST").unwrap_or_else(|_| "127.0.0.1".to_string());
+    
+    // 2. Check for a custom port, default to 8080
+    let port_str = std::env::var("API_PORT").unwrap_or_else(|_| "8080".to_string());
+    let port = port_str.parse::<u16>().unwrap_or(8080);
+
+    println!("Rust API actively listening on http://{}:{}", host, port);
 
     HttpServer::new(|| {
         let cors = Cors::permissive(); 
@@ -111,7 +118,7 @@ async fn main() -> std::io::Result<()> {
             .service(get_pages)
             .service(get_games)
     })
-    .bind(("127.0.0.1", 8080))?
+    .bind((host, port))? // <-- Dynamic binding!
     .run()
     .await
 }
