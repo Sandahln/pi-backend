@@ -1,0 +1,10 @@
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\deps\actix_cors-1d4b178846fb708f.d: C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\lib.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\all_or_some.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\builder.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\error.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\inner.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\middleware.rs
+
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\deps\libactix_cors-1d4b178846fb708f.rmeta: C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\lib.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\all_or_some.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\builder.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\error.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\inner.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\middleware.rs
+
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\lib.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\all_or_some.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\builder.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\error.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\inner.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\actix-cors-0.7.1\src\middleware.rs:

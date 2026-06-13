@@ -1,0 +1,14 @@
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\deps\serde-3a1e2a507f029a11.d: C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\build\serde-58ff6ab5bf28e202\out/private.rs
+
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\deps\libserde-3a1e2a507f029a11.rlib: C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\build\serde-58ff6ab5bf28e202\out/private.rs
+
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\deps\libserde-3a1e2a507f029a11.rmeta: C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\build\serde-58ff6ab5bf28e202\out/private.rs
+
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\lib.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\integer128.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\mod.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\de.rs:
+C:\Users\fredr\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\serde-1.0.228\src\private\ser.rs:
+C:\Users\fredr\Documents\kod\webpageTest\pi-backend\target\debug\build\serde-58ff6ab5bf28e202\out/private.rs:
+
+# env-dep:OUT_DIR=C:\\Users\\fredr\\Documents\\kod\\webpageTest\\pi-backend\\target\\debug\\build\\serde-58ff6ab5bf28e202\\out
