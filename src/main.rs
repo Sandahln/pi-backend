@@ -100,7 +100,7 @@ async fn get_games() -> impl Responder {
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
     // 1. Check if a custom host was passed via the environment, default to localhost
-    let host = std::env::var("API_HOST").unwrap_or_else(|_| "127.0.0.1".to_string());
+    let host = std::env::var("API_HOST").unwrap_or_else(|_| "0.0.0.0".to_string());
     
     // 2. Check for a custom port, default to 8080
     let port_str = std::env::var("API_PORT").unwrap_or_else(|_| "8080".to_string());
