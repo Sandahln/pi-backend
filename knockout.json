@@ -1,0 +1,469 @@
+{
+	"Fredrik": {
+		"user": "Fredrik",
+		"game_id": "vm-2026",
+		"knockout": {
+			"r32": [
+				{
+					"id": "L1",
+					"label": "1E vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group E"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group E"
+					},
+					"home": "Germany",
+					"away": "Czech Republic",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Germany"
+				},
+				{
+					"id": "L2",
+					"label": "1I vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group I"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group I"
+					},
+					"home": "France",
+					"away": "Scotland",
+					"homeScore": 2,
+					"awayScore": 0,
+					"winner": "France"
+				},
+				{
+					"id": "L3",
+					"label": "2A vs 2B",
+					"homeSource": {
+						"type": "runnerUp",
+						"group": "Group A"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group B"
+					},
+					"home": "South Korea",
+					"away": "Bosnia & Herzegovina",
+					"homeScore": 0,
+					"awayScore": 1,
+					"winner": "Bosnia & Herzegovina"
+				},
+				{
+					"id": "L4",
+					"label": "1F vs 2C",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group F"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group C"
+					},
+					"home": "Netherlands",
+					"away": "Morocco",
+					"homeScore": 1,
+					"awayScore": 1,
+					"winner": "Netherlands"
+				},
+				{
+					"id": "L5",
+					"label": "2K vs 2L",
+					"homeSource": {
+						"type": "runnerUp",
+						"group": "Group K"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group L"
+					},
+					"home": "Colombia",
+					"away": "Croatia",
+					"homeScore": 0,
+					"awayScore": 1,
+					"winner": "Croatia"
+				},
+				{
+					"id": "L6",
+					"label": "1H vs 2J",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group H"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group J"
+					},
+					"home": "Spain",
+					"away": "Austria",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Spain"
+				},
+				{
+					"id": "L7",
+					"label": "1D vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group D"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group D"
+					},
+					"home": "Turkey",
+					"away": "Canada",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Turkey"
+				},
+				{
+					"id": "L8",
+					"label": "1G vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group G"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group G"
+					},
+					"home": "Belgium",
+					"away": "Ivory Coast",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Belgium"
+				},
+				{
+					"id": "R1",
+					"label": "1C vs 2F",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group C"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group F"
+					},
+					"home": "Brazil",
+					"away": "Sweden",
+					"homeScore": 4,
+					"awayScore": 1,
+					"winner": "Brazil"
+				},
+				{
+					"id": "R2",
+					"label": "2E vs 2I",
+					"homeSource": {
+						"type": "runnerUp",
+						"group": "Group E"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group I"
+					},
+					"home": "Ecuador",
+					"away": "Senegal",
+					"homeScore": 1,
+					"awayScore": 0,
+					"winner": "Ecuador"
+				},
+				{
+					"id": "R3",
+					"label": "1A vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group A"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group A"
+					},
+					"home": "Mexico",
+					"away": "Saudi Arabia",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Mexico"
+				},
+				{
+					"id": "R4",
+					"label": "1L vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group L"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group L"
+					},
+					"home": "England",
+					"away": "DR Congo",
+					"homeScore": 3,
+					"awayScore": 0,
+					"winner": "England"
+				},
+				{
+					"id": "R5",
+					"label": "1J vs 2H",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group J"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group H"
+					},
+					"home": "Argentina",
+					"away": "Uruguay",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Argentina"
+				},
+				{
+					"id": "R6",
+					"label": "2D vs 2G",
+					"homeSource": {
+						"type": "runnerUp",
+						"group": "Group D"
+					},
+					"awaySource": {
+						"type": "runnerUp",
+						"group": "Group G"
+					},
+					"home": "USA",
+					"away": "Egypt",
+					"homeScore": 2,
+					"awayScore": 0,
+					"winner": "USA"
+				},
+				{
+					"id": "R7",
+					"label": "1B vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group B"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group B"
+					},
+					"home": "Switzerland",
+					"away": "Norway",
+					"homeScore": 2,
+					"awayScore": 2,
+					"winner": "Switzerland"
+				},
+				{
+					"id": "R8",
+					"label": "1K vs 3rd",
+					"homeSource": {
+						"type": "winner",
+						"group": "Group K"
+					},
+					"awaySource": {
+						"type": "third",
+						"winnerGroup": "Group K"
+					},
+					"home": "Portugal",
+					"away": "Ghana",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Portugal"
+				}
+			],
+			"r16": [
+				{
+					"id": "L16-A",
+					"label": "Round of 16 L-A",
+					"home": "Germany",
+					"away": "France",
+					"homeScore": 2,
+					"awayScore": 2,
+					"winner": "Germany",
+					"homeSource": { "type": "winnerOf", "matchId": "L1" },
+					"awaySource": { "type": "winnerOf", "matchId": "L2" }
+				},
+				{
+					"id": "L16-B",
+					"label": "Round of 16 L-B",
+					"home": "Bosnia & Herzegovina",
+					"away": "Netherlands",
+					"homeScore": 1,
+					"awayScore": 2,
+					"winner": "Netherlands",
+					"homeSource": { "type": "winnerOf", "matchId": "L3" },
+					"awaySource": { "type": "winnerOf", "matchId": "L4" }
+				},
+				{
+					"id": "L16-C",
+					"label": "Round of 16 L-C",
+					"home": "Croatia",
+					"away": "Spain",
+					"homeScore": 0,
+					"awayScore": 2,
+					"winner": "Spain",
+					"homeSource": { "type": "winnerOf", "matchId": "L5" },
+					"awaySource": { "type": "winnerOf", "matchId": "L6" }
+				},
+				{
+					"id": "L16-D",
+					"label": "Round of 16 L-D",
+					"home": "Turkey",
+					"away": "Belgium",
+					"homeScore": 1,
+					"awayScore": 2,
+					"winner": "Belgium",
+					"homeSource": { "type": "winnerOf", "matchId": "L7" },
+					"awaySource": { "type": "winnerOf", "matchId": "L8" }
+				},
+				{
+					"id": "R16-A",
+					"label": "Round of 16 R-A",
+					"home": "Brazil",
+					"away": "Ecuador",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Brazil",
+					"homeSource": { "type": "winnerOf", "matchId": "R1" },
+					"awaySource": { "type": "winnerOf", "matchId": "R2" }
+				},
+				{
+					"id": "R16-B",
+					"label": "Round of 16 R-B",
+					"home": "Mexico",
+					"away": "England",
+					"homeScore": 1,
+					"awayScore": 3,
+					"winner": "England",
+					"homeSource": { "type": "winnerOf", "matchId": "R3" },
+					"awaySource": { "type": "winnerOf", "matchId": "R4" }
+				},
+				{
+					"id": "R16-C",
+					"label": "Round of 16 R-C",
+					"home": "Argentina",
+					"away": "USA",
+					"homeScore": 2,
+					"awayScore": 0,
+					"winner": "Argentina",
+					"homeSource": { "type": "winnerOf", "matchId": "R5" },
+					"awaySource": { "type": "winnerOf", "matchId": "R6" }
+				},
+				{
+					"id": "R16-D",
+					"label": "Round of 16 R-D",
+					"home": "Switzerland",
+					"away": "Portugal",
+					"homeScore": 1,
+					"awayScore": 2,
+					"winner": "Portugal",
+					"homeSource": { "type": "winnerOf", "matchId": "R7" },
+					"awaySource": { "type": "winnerOf", "matchId": "R8" }
+				}
+			],
+			"qf": [
+				{
+					"id": "QF-L1",
+					"label": "Quarter-Final L1",
+					"home": "Germany",
+					"away": "Netherlands",
+					"homeScore": 2,
+					"awayScore": 0,
+					"winner": "Germany",
+					"homeSource": { "type": "winnerOf", "matchId": "L16-A" },
+					"awaySource": { "type": "winnerOf", "matchId": "L16-B" }
+				},
+				{
+					"id": "QF-L2",
+					"label": "Quarter-Final L2",
+					"home": "Spain",
+					"away": "Belgium",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Spain",
+					"homeSource": { "type": "winnerOf", "matchId": "L16-C" },
+					"awaySource": { "type": "winnerOf", "matchId": "L16-D" }
+				},
+				{
+					"id": "QF-R1",
+					"label": "Quarter-Final R1",
+					"home": "Brazil",
+					"away": "England",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Brazil",
+					"homeSource": { "type": "winnerOf", "matchId": "R16-A" },
+					"awaySource": { "type": "winnerOf", "matchId": "R16-B" }
+				},
+				{
+					"id": "QF-R2",
+					"label": "Quarter-Final R2",
+					"home": "Argentina",
+					"away": "Portugal",
+					"homeScore": 1,
+					"awayScore": 1,
+					"winner": "Portugal",
+					"homeSource": { "type": "winnerOf", "matchId": "R16-C" },
+					"awaySource": { "type": "winnerOf", "matchId": "R16-D" }
+				}
+			],
+			"sf": [
+				{
+					"id": "SF1",
+					"label": "Semi-Final 1 (Left Side)",
+					"home": "Germany",
+					"away": "Spain",
+					"homeScore": 1,
+					"awayScore": 2,
+					"winner": "Spain",
+					"homeSource": { "type": "winnerOf", "matchId": "QF-L1" },
+					"awaySource": { "type": "winnerOf", "matchId": "QF-L2" }
+				},
+				{
+					"id": "SF2",
+					"label": "Semi-Final 2 (Right Side)",
+					"home": "Brazil",
+					"away": "Portugal",
+					"homeScore": 2,
+					"awayScore": 1,
+					"winner": "Brazil",
+					"homeSource": { "type": "winnerOf", "matchId": "QF-R1" },
+					"awaySource": { "type": "winnerOf", "matchId": "QF-R2" }
+				}
+			],
+			"final": [
+				{
+					"id": "FINAL",
+					"label": "Final",
+					"home": "Spain",
+					"away": "Brazil",
+					"homeScore": 2,
+					"awayScore": 2,
+					"winner": "Spain",
+					"homeSource": { "type": "winnerOf", "matchId": "SF1" },
+					"awaySource": { "type": "winnerOf", "matchId": "SF2" }
+				}
+			],
+			"thirdPlace": [
+				{
+					"id": "THIRD_PLACE",
+					"label": "Third Place Playoff",
+					"home": "Germany",
+					"away": "Portugal",
+					"homeScore": 3,
+					"awayScore": 1,
+					"winner": "Germany",
+					"homeSource": { "type": "loserOf", "matchId": "SF1" },
+					"awaySource": { "type": "loserOf", "matchId": "SF2" }
+				}
+			]
+		},
+		"updatedAt": "2026-06-13T09:24:19.339Z"
+	}
+}

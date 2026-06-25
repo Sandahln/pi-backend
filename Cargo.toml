@@ -8,3 +8,9 @@ actix-web = "4"
 actix-cors = "0.7"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
+
+[profile.release]
+strip = true          # Rensar bort alla symbolnamn och debug-info (minskar storleken drastiskt)
+lto = true            # Aktiverar Link-Time Optimization (tar bort oanvänd kod i bibliotek)
+codegen-units = 1     # Ger kompilatorn en helhetsbild vilket ger bättre optimering
+panic = "abort"       # Tar bort kod för panik-unwinding (valfritt, men sparar mycket plats)
