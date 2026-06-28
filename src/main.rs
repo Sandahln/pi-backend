@@ -229,6 +229,73 @@ async fn get_pages() -> impl Responder {
     HttpResponse::Ok().json(pages)
 }
 
+#[derive(Serialize)]
+struct PiStats {
+    cpu_temp_c: f32,
+    load_1: f32,
+    load_5: f32,
+    load_15: f32,
+    mem_total_mb: u64,
+    mem_used_mb: u64,
+    uptime_seconds: u64,
+}
+
+#[get("/api/pi-stats")]
+async fn get_pi_stats() -> impl Responder {
+    // CPU temperature — /sys/class/thermal/thermal_zone0/temp gives millidegrees
+    let cpu_temp_c = fs::read_to_string("/sys/class/thermal/thermal_zone0/temp")
+        .ok()
+        .and_then(|s| s.trim().parse::<f32>().ok())
+        .map(|t| (t / 1000.0 * 10.0).round() / 10.0)
+        .unwrap_or(0.0);
+
+    // Load averages — /proc/loadavg: "0.25 0.18 0.12 1/123 456"
+    let (load_1, load_5, load_15) = fs::read_to_string("/proc/loadavg")
+        .ok()
+        .and_then(|s| {
+            let mut p = s.split_whitespace();
+            let l1 = p.next()?.parse::<f32>().ok()?;
+            let l5 = p.next()?.parse::<f32>().ok()?;
+            let l15 = p.next()?.parse::<f32>().ok()?;
+            Some((l1, l5, l15))
+        })
+        .unwrap_or((0.0, 0.0, 0.0));
+
+    // Memory — /proc/meminfo values are in kB
+    let (mem_total_mb, mem_used_mb) = fs::read_to_string("/proc/meminfo")
+        .ok()
+        .and_then(|s| {
+            let mut total_kb: u64 = 0;
+            let mut available_kb: u64 = 0;
+            for line in s.lines() {
+                if line.starts_with("MemTotal:") {
+                    total_kb = line.split_whitespace().nth(1)?.parse().ok()?;
+                } else if line.starts_with("MemAvailable:") {
+                    available_kb = line.split_whitespace().nth(1)?.parse().ok()?;
+                }
+            }
+            Some((total_kb / 1024, (total_kb - available_kb) / 1024))
+        })
+        .unwrap_or((0, 0));
+
+    // Uptime — /proc/uptime: "<uptime_secs> <idle_secs>"
+    let uptime_seconds = fs::read_to_string("/proc/uptime")
+        .ok()
+        .and_then(|s| s.split_whitespace().next()?.parse::<f64>().ok())
+        .map(|f| f as u64)
+        .unwrap_or(0);
+
+    HttpResponse::Ok().json(PiStats {
+        cpu_temp_c,
+        load_1,
+        load_5,
+        load_15,
+        mem_total_mb,
+        mem_used_mb,
+        uptime_seconds,
+    })
+}
+
 #[get("/api/games")]
 async fn get_games() -> impl Responder {
     match fs::read_to_string("db.json") {
@@ -262,6 +329,7 @@ async fn main() -> std::io::Result<()> {
             .service(get_data)
             .service(get_pages)
             .service(get_games)
+            .service(get_pi_stats)
     })
     .bind((host, port))?
     .run()
