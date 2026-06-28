@@ -47,9 +47,7 @@
     {
       "id": "1",
       "title": "Achtung die Kurve",
-      "description": "Local multiplayer snake-like game. Steer left/right to avoid walls and other players!",
-      "link": "/games/1",
-      "icon": "🎮"
+      "icon": "🐍"
     },
     {
       "id": "2",
