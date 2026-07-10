@@ -296,6 +296,32 @@ async fn get_pi_stats() -> impl Responder {
     })
 }
 
+#[post("/api/parental-leave/{user}")]
+async fn save_parental_leave(
+    path: web::Path<String>,
+    body: web::Json<serde_json::Value>,
+) -> impl Responder {
+    let user = path.into_inner();
+    let mut map = read_user_map("parental-leave.json");
+    map.insert(user.clone(), body.into_inner());
+    if write_user_map("parental-leave.json", &map) {
+        println!("Saved parental leave for: {}", user);
+        HttpResponse::Ok().body("Saved!")
+    } else {
+        HttpResponse::InternalServerError().body("Failed to save parental-leave.json")
+    }
+}
+
+#[get("/api/parental-leave/{user}")]
+async fn load_parental_leave(path: web::Path<String>) -> impl Responder {
+    let user = path.into_inner();
+    let map = read_user_map("parental-leave.json");
+    match map.get(&user) {
+        Some(data) => HttpResponse::Ok().json(data),
+        None => HttpResponse::NotFound().body("No parental leave data found"),
+    }
+}
+
 #[get("/api/games")]
 async fn get_games() -> impl Responder {
     match fs::read_to_string("db.json") {
@@ -330,6 +356,8 @@ async fn main() -> std::io::Result<()> {
             .service(get_pages)
             .service(get_games)
             .service(get_pi_stats)
+            .service(save_parental_leave)
+            .service(load_parental_leave)
     })
     .bind((host, port))?
     .run()
