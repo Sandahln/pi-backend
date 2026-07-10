@@ -41,6 +41,13 @@
       "description": "Place your bets on upcoming events.",
       "link": "/betting",
       "icon": "🎲"
+    },
+    {
+      "id": "7",
+      "title": "Föräldraledighet",
+      "description": "Planera föräldraledighet och se dagersättning per Försäkringskassans regler.",
+      "link": "/parental-leave",
+      "icon": "👶"
     }
   ],
   "games": [
